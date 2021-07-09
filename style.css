@@ -37,7 +37,7 @@
 #Home{
     display: flex;
     flex-direction: column;
-    height: 1000px;
+    height: 700px;
 }
 #Home::before{
     content:"";
@@ -45,7 +45,7 @@
     top: 0;
     left: 0;
     background: url('mariapic.png') no-repeat center center/cover;
-    height:800px;
+    height:700px;
     width: 40%;
     z-index:-1 ;
     opacity: 1;
@@ -61,23 +61,43 @@
 .headings{
     font-family:brush script MT;
     font-style:italic;
-    font-size: 4rem;
+    font-size: 5.5rem;
     text-align: center;
     margin: 40px 0px;
 }
 .btn{
     padding: 10px 35px;
-    background-color:blue;
-    border: 1px blue;
-    color:white;
-    outline: none;
+    background-color:white;
+    border: 1px black;
+    color:black;
+    outline:black;
     transition: 0.6s ease;
 }
 .btn:hover{
     cursor: pointer;
-    background-color: white;
-    color: black;
+    background-color: blue;
+    color:blueviolet;
     box-shadow: 0 0 5px white, 0 0 10px white, 0 0 15px white;
     font-weight: bold;
 }
 /*About Section*/
+ #About{
+    display:flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+
+}
+ #intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+ #intro h2{
+     font-size: 2rem;
+     margin-bottom:20px;
+ }
+
+ /*Education Section*/
+ 
